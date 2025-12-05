@@ -10,6 +10,8 @@ class Task extends Model
         'title',
         'description',
         'author', 
+        'status', 
+        'user_id',
     ];
 
 }
